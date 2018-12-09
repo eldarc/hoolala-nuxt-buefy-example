@@ -1,0 +1,57 @@
+/*! bulmaswatch v0.7.2 | MIT License */
+@import "variables";
+@import "~bulma";
+@import "overrides";
+
+$sizes: (0,10,15,20,25,30,50,80,100);
+$positions: ('top','left','bottom','right');
+
+@each $size in $sizes {
+  .mt-#{$size} {
+    margin-top: $size + px;
+  }
+  .mr-#{$size} {
+    margin-right: $size + px;
+  }
+  .mb-#{$size} {
+    margin-bottom: $size + px;
+  }
+  .ml-#{$size} {
+    margin-left: $size + px;
+  }
+  .m-#{$size} {
+    margin: $size + px;
+  }
+  .mx-#{$size} {
+    margin-left: $size + px;
+    margin-right: $size + px;
+  }
+  .my-#{$size} {
+    margin-top: $size + px;
+    margin-bottom: $size + px;
+  }
+
+  .pt-#{$size} {
+    padding-top: $size + px;
+  }
+  .pr-#{$size} {
+    padding-right: $size + px;
+  }
+  .pb-#{$size} {
+    padding-bottom: $size + px;
+  }
+  .pl-#{$size} {
+    padding-left: $size + px;
+  }
+  .p-#{$size} {
+    padding: $size + px;
+  }
+  .px-#{$size} {
+    padding-left: $size + px;
+    padding-right: $size + px;
+  }
+  .py-#{$size} {
+    padding-top: $size + px;
+    padding-bottom: $size + px;
+  }
+}
