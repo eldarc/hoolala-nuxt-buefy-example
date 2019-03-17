@@ -1,8 +1,8 @@
 {
   "name": "hoolala-nuxt-buefy-example",
   "version": "1.0.0",
-  "description": "Cost plan for your next event.",
-  "author": "Eldar",
+  "description": "Event cost planing app build with Nuxt.js and Buefy",
+  "author": "Eldar Cejvanovic",
   "private": true,
   "scripts": {
     "dev": "nuxt",

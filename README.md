@@ -1,6 +1,16 @@
 # hoolala
+**Hoolala is a simple cost planning app. It is built as an example of Nuxt.js with Buefy.**
+> "hoolala" => "planning", "plan" in Hawaiian.
 
-> Cost plan for your next event.
+## Live Demo
+
+Live demo is available here: <a href="https://hoolala.netlify.com" target="_blank">https://hoolala.netlify.com</a>
+
+## Quick Demo
+
+![Quick Demo 1](https://github.com/eldarc/hoolala-nuxt-buefy-example/raw/master/assets/tutorial-1.gif)
+
+![Quick Demo 2](https://github.com/eldarc/hoolala-nuxt-buefy-example/raw/master/assets/tutorial-2.gif)
 
 ## Build Setup
 
