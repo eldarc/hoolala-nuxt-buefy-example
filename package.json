@@ -1,5 +1,5 @@
 {
-  "name": "hoolala",
+  "name": "hoolala-nuxt-buefy-example",
   "version": "1.0.0",
   "description": "Cost plan for your next event.",
   "author": "Eldar",
@@ -16,7 +16,9 @@
     "@nuxtjs/axios": "^5.0.0",
     "cross-env": "^5.2.0",
     "nuxt": "^2.0.0",
-    "nuxt-buefy": "^0.2.1"
+    "nuxt-buefy": "^0.2.1",
+    "nuxt-sass-resources-loader": "^2.0.5",
+    "vuedraggable": "^2.17.0"
   },
   "devDependencies": {
     "babel-eslint": "^8.2.1",

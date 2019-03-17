@@ -49,9 +49,11 @@ module.exports = {
     [
       'nuxt-buefy',
       {
-        css: false
+        // css: true,
+        materialDesignIcons: false
       }
-    ]
+    ],
+    ['nuxt-sass-resources-loader', ['@/styles/_variables.scss']]
   ],
   /*
   ** Axios module configuration

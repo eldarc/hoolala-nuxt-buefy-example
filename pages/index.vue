@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="pb-80">
 
     <section class="hero">
       <div class="hero-body">
@@ -25,11 +25,15 @@
           <items/>
         </b-tab-item>
         <b-tab-item
-          label="Cost"
-          icon="cash-multiple"/>
+          label="Overview"
+          icon="cash-multiple">
+          <overview/>
+        </b-tab-item>
         <b-tab-item
-          label="Offers"
-          icon="tag"/>
+          label="Tutorial"
+          icon="help-circle">
+          <tutorial/>
+        </b-tab-item>
       </b-tabs>
     </div>
 
@@ -38,10 +42,15 @@
 
 <script>
 import Items from '@/components/Items.vue'
+import Overview from '@/components/Overview.vue'
+import Tutorial from '@/components/Tutorial.vue'
+
 export default {
   name: 'Homepage',
   components: {
-    Items
+    Items,
+    Overview,
+    Tutorial
   },
   data() {
     return {}
